@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+   <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>  <!-- icon -->
+
+    <title>ALURA  - Desafío</title>
+</head>
+<body>
+    <img src="img/logo.png" alt="aluralogo">
+
+
+    <div class="general">
+
+   
+    <div class="container">
+        <div class="textbox1">
+            <textarea name="cajatexto" id="msgtext"  placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+     
+
+        <div class="btn-container">
+            <p class="icon-text"><iconify-icon inline icon="bi:exclamation-circle-fill"></iconify-icon>Solo letras minúsculas y sin acentos</p>
+                <button id="cifrar">Encriptar</button>
+                <button id="descifrar">Desencriptar</button>
+        </div>
+    </div>
+    
+  
+    <div class="msg-container">
+        <div id="no-msg">
+        <img src="img/Muñeco.png" alt="muñeco" id="imgmuneco">
+            <h3><strong>Ningún mensaje fue encontrado</strong></h3>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            
+        </div>
+    
+        <textarea name="" id="result" cols="18" rows="10"></textarea>
+
+        <button id="copy-msg">COPIAR</button>
+    </div>
+
+</div>
+    <script src="js/script.js"></script>
+</body>
+</html>
